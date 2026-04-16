@@ -27,7 +27,7 @@ jobs:
       - name: Run script
         run: python script.py
         env:
-          TEST_MODE: "true"
+          # TEST_MODE: "true"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           KEYWORDS: ${{ secrets.KEYWORDS }}

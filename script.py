@@ -94,11 +94,11 @@ def main():
             new_courses.append((title, link))
             seen.add(link)
 
-    TEST_MODE = os.getenv("TEST_MODE") == "true"
+    # TEST_MODE = os.getenv("TEST_MODE") == "true"
 
-    if TEST_MODE:
-        send_telegram("✅ Test desde GitHub Actions")
-        return
+    # if TEST_MODE:
+    #     send_telegram("✅ Test desde GitHub Actions")
+    #     return
     
     for title, link in new_courses:
         message = f"🔥 Nuevo curso:\n{title}\n{link}"
