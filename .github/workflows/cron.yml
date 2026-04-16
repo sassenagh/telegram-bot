@@ -1,9 +1,9 @@
 name: CursosDev Alert
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *" # 15 min
-  workflow_dispatch:
 
 jobs:
   run-script:
