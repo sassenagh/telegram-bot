@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "*/15 * * * *" # 15 min
 
+permissions:
+  contents: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
