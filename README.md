@@ -125,10 +125,17 @@ Run manually:
 
 ```bash
 python script.py
-GitHub Actions Workflow
 ```
+---
 
-The bot runs automatically using GitHub Actions...
+# GitHub Actions Workflow
+
+- Checkout repository
+- Setup Python 3.11
+- Install dependencies
+- Run scraping script
+- Send Telegram notifications
+- Commit updated state (seen_courses.json)
 
 ---
 
